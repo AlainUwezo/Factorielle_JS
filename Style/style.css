@@ -1,0 +1,54 @@
+*{ /* Permet de sélectionner tous les éléments */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /* permet d'éliminer  les bordures par defaut defini par le navigateur*/
+}
+body{
+    background-color: burlywood;
+    width: 30%;
+    margin: 0px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body .conteneur{
+    background-color: white;
+    padding: 12% 12%;
+    margin-top: 40%;
+    word-spacing: 12%;
+    border-radius: 3%;
+    box-shadow: 0px 1px 2px black;
+}
+body h1{
+    font-size: 18px;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+body .form .champ{
+    padding: 10px;
+    border: none;
+    background-color: white ;
+    width: 80px;
+    cursor: pointer;
+    text-align: center;
+}
+
+body .form .calculer{
+    margin-top: 5%;
+    padding: 10px;
+    border: none;
+    border-radius: 9%;
+    background-color: black ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    width: 80px;
+    color: white;
+    cursor: pointer;
+   
+}
+body .form .calculer:hover{
+    box-shadow: black 2px 2px;
+}
+
+body hr{
+    border: 1px solid black; margin-bottom: 7%;
+}
